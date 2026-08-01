@@ -39,10 +39,20 @@ export function About() {
   const ctaWords = pick(intro.cta).split(' ')
   const total = bodyWords.length + ctaWords.length
 
-  /** Cada palavra acende num trecho próprio do progresso da seção. */
+  /**
+   * Cada palavra acende num trecho próprio do progresso da seção.
+   *
+   * As janelas se sobrepõem (uma palavra acende enquanto a anterior ainda
+   * termina), então a escala precisa contar essa sobra: dividir só por `total`
+   * jogaria o fim da última palavra acima de 1, e como `scrollYProgress` para
+   * em 1 ela nunca chegava a acender por completo.
+   */
+  const OVERLAP = 1.6
+  const span = total + OVERLAP - 1
+
   const rangeFor = (index: number): [number, number] => [
-    index / total,
-    (index + 1.6) / total,
+    index / span,
+    (index + OVERLAP) / span,
   ]
 
   return (
