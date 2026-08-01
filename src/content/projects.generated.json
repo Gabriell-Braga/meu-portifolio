@@ -1,0 +1,740 @@
+[
+  {
+    "slug": "unidas-seminovos-pesados",
+    "title": "Unidas Seminovos Pesados- Webflow",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "Webflow"
+    ],
+    "url": "https://seminovospesados.unidas.com.br/",
+    "description": {
+      "pt": "Desenvolvi o site da Unidas Seminovos Pesados utilizando o Webflow, criando um site funcional e intuitivo. A Unidas Seminovos Pesados é uma empresa especializada na compra de carros, oferecendo uma ampla gama de veículos de alta qualidade e performance. O site foi projetado para proporcionar uma experiência de usuário eficiente e agradável, facilitando a navegação. Este projeto envolveu a aplicação de conhecimentos em desenvolvimento web, design de interface e otimização para mecanismos de busca (SEO), resultando em uma solução completa para atender às necessidades comerciais da Unidas Seminovos Pesados.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/unidas-seminovos-pesados/01.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/unidas-seminovos-pesados/02.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/unidas-seminovos-pesados/03.webp",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "slug": "unidas-corporativo",
+    "title": "Unidas Corporativo - Webflow",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "Webflow",
+      "Landing Page"
+    ],
+    "url": "https://corporativo.unidas.com.br/",
+    "description": {
+      "pt": "Desenvolvi a Landing Page da Unidas Corporativo utilizando o Webflow, criando um site funcional e intuitivo. A Unidas Corporativo é uma empresa especializada no aluguel de carros, oferecendo uma ampla gama de veículos de alta qualidade e performance. O site foi projetado para proporcionar uma experiência de usuário eficiente e agradável, facilitando a navegação. Este projeto envolveu a aplicação de conhecimentos em desenvolvimento web, design de interface e otimização para mecanismos de busca (SEO), resultando em uma solução completa para atender às necessidades comerciais da Unidas Corporativo.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/unidas-corporativo/01.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/unidas-corporativo/02.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/unidas-corporativo/03.webp",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "slug": "unidas-empresas",
+    "title": "Unidas Empresas - Webflow",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "Webflow",
+      "Landing Page"
+    ],
+    "url": "http://empresas.unidas.com.br/",
+    "description": {
+      "pt": "Desenvolvi a Landing Page da Unidas Empresas utilizando o Webflow, criando um site funcional e intuitivo. A Unidas Empresas é uma empresa especializada no aluguel de carros, oferecendo uma ampla gama de veículos de alta qualidade e performance. O site foi projetado para proporcionar uma experiência de usuário eficiente e agradável, facilitando a navegação. Este projeto envolveu a aplicação de conhecimentos em desenvolvimento web, design de interface e otimização para mecanismos de busca (SEO), resultando em uma solução completa para atender às necessidades comerciais da Unidas Empresas.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/unidas-empresas/01.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/unidas-empresas/02.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/unidas-empresas/03.webp",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "slug": "vem-ser-livre",
+    "title": "Vem ser Livre - Webflow",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "Webflow"
+    ],
+    "url": "https://vemserlivre.com.br/",
+    "description": {
+      "pt": "Desenvolvi o site da Unidas Livre utilizando o Webflow, criando um site funcional e intuitivo. A Unidas Livre é uma empresa especializada na assinatura de carros, oferecendo uma ampla gama de veículos de alta qualidade e performance. O site foi projetado para proporcionar uma experiência de usuário eficiente e agradável, facilitando a navegação, a visualização de veículos e também facilitando o entendimento do usuário sobre o serviço de carro por assinatura, com uma calculadora de preços complexas com dados baseados em tempo real. Este projeto envolveu a aplicação de conhecimentos em desenvolvimento web, design de interface e otimização para mecanismos de busca (SEO), resultando em uma solução completa para atender às necessidades comerciais da Unidas Livre.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/vem-ser-livre/01.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/vem-ser-livre/02.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/vem-ser-livre/03.webp",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "slug": "banco-inter-pagamentos",
+    "title": "Módulo de Integração de Pagamento do Banco Inter para PerfexCRM em Codeigniter e para Woocommerce",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "PHP",
+      "CodeIgniter",
+      "PerfexCRM",
+      "API",
+      "Symfony",
+      "Wordpress",
+      "WooCommerce"
+    ],
+    "url": "https://br.wordpress.org/plugins/wc-banco-inter/",
+    "description": {
+      "pt": "Desenvolvi um módulo de integração de pagamento do Banco Inter para o sistema PerfexCRM utilizando o framework Codeigniter e para a plataforma Woocommerce. Este módulo permite a integração perfeita das funcionalidades de pagamento do Banco Inter, facilitando transações seguras e eficientes. No PerfexCRM, o módulo permite que os usuários gerenciem pagamentos diretamente no sistema, melhorando a eficiência financeira e administrativa. Para Woocommerce, o módulo integra as opções de pagamento do Banco Inter na loja online, proporcionando uma experiência de compra otimizada para os clientes. O projeto envolveu a aplicação de conhecimentos em desenvolvimento web, PHP, e integrações de API, resultando em uma solução robusta e versátil para a gestão de pagamentos em ambas as plataformas.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/banco-inter-pagamentos/01.webp",
+        "width": 1394,
+        "height": 960
+      },
+      {
+        "src": "/projetos/banco-inter-pagamentos/02.webp",
+        "width": 1600,
+        "height": 824
+      },
+      {
+        "src": "/projetos/banco-inter-pagamentos/03.webp",
+        "width": 1600,
+        "height": 867
+      },
+      {
+        "src": "/projetos/banco-inter-pagamentos/04.webp",
+        "width": 1423,
+        "height": 789
+      },
+      {
+        "src": "/projetos/banco-inter-pagamentos/05.webp",
+        "width": 1440,
+        "height": 1112
+      },
+      {
+        "src": "/projetos/banco-inter-pagamentos/06.webp",
+        "width": 1417,
+        "height": 710
+      },
+      {
+        "src": "/projetos/banco-inter-pagamentos/07.webp",
+        "width": 1423,
+        "height": 789
+      },
+      {
+        "src": "/projetos/banco-inter-pagamentos/08.webp",
+        "width": 1423,
+        "height": 789
+      },
+      {
+        "src": "/projetos/banco-inter-pagamentos/09.webp",
+        "width": 1426,
+        "height": 789
+      }
+    ]
+  },
+  {
+    "slug": "oticas-mayer",
+    "title": "Wordpress+Woocommerce Óticas Mayer",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "Wordpress",
+      "WooCommerce"
+    ],
+    "url": "https://oticasmayer.com.br/",
+    "description": {
+      "pt": "Desenvolvi o site da Óticas Mayer utilizando as plataformas Wordpress e Woocommerce, criando uma loja online funcional e intuitiva. A Óticas Mayer é uma empresa especializada na venda de óculos e acessórios ópticos, oferecendo uma ampla gama de produtos de alta qualidade. O site foi projetado para proporcionar uma experiência de usuário eficiente e agradável, facilitando a navegação, a visualização de produtos e o processo de compra. Este projeto envolveu a aplicação de conhecimentos em desenvolvimento web, design de interface, e-commerce e otimização para mecanismos de busca (SEO), resultando em uma solução completa para atender às necessidades comerciais da Óticas Mayer.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/oticas-mayer/01.webp",
+        "width": 1600,
+        "height": 748
+      },
+      {
+        "src": "/projetos/oticas-mayer/02.webp",
+        "width": 1600,
+        "height": 748
+      },
+      {
+        "src": "/projetos/oticas-mayer/03.webp",
+        "width": 1600,
+        "height": 750
+      },
+      {
+        "src": "/projetos/oticas-mayer/04.webp",
+        "width": 1600,
+        "height": 747
+      },
+      {
+        "src": "/projetos/oticas-mayer/05.webp",
+        "width": 1600,
+        "height": 748
+      }
+    ]
+  },
+  {
+    "slug": "perfexcrm-financeiro",
+    "title": "Módulo de Gestão Financeira para PerfexCRM em Codeigniter",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "PHP",
+      "CodeIgniter",
+      "PerfexCRM",
+      "API",
+      "Symfony"
+    ],
+    "url": null,
+    "description": {
+      "pt": "Desenvolvi um módulo de Gestão Financeira para o sistema PerfexCRM utilizando o framework Codeigniter. Este módulo foi projetado para aprimorar as capacidades do PerfexCRM, permitindo uma gestão financeira integrada e eficaz. Com este módulo, os usuários podem gerenciar despesas, receitas, fluxos de caixa e gerar relatórios financeiros detalhados. O projeto envolveu a aplicação de conhecimentos em desenvolvimento web, PHP e integrações de API, resultando em uma ferramenta poderosa que facilita o controle financeiro, proporciona insights valiosos e melhora a tomada de decisões financeiras dentro do PerfexCRM.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/perfexcrm-financeiro/01.webp",
+        "width": 1600,
+        "height": 814
+      },
+      {
+        "src": "/projetos/perfexcrm-financeiro/02.webp",
+        "width": 1600,
+        "height": 807
+      },
+      {
+        "src": "/projetos/perfexcrm-financeiro/03.webp",
+        "width": 1600,
+        "height": 815
+      },
+      {
+        "src": "/projetos/perfexcrm-financeiro/04.webp",
+        "width": 1600,
+        "height": 815
+      },
+      {
+        "src": "/projetos/perfexcrm-financeiro/05.webp",
+        "width": 1600,
+        "height": 673
+      },
+      {
+        "src": "/projetos/perfexcrm-financeiro/06.webp",
+        "width": 1600,
+        "height": 815
+      }
+    ]
+  },
+  {
+    "slug": "bike-cia",
+    "title": "Wordpress+Woocommerce Bike & Cia",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "Wordpress",
+      "WooCommerce"
+    ],
+    "url": "https://bikeciabrasil.com.br/",
+    "description": {
+      "pt": "Desenvolvi o site da Bike & Cia utilizando as plataformas Wordpress e Woocommerce. A Bike & Cia é uma empresa especializada em bicicletas, e o site foi projetado para oferecer uma experiência de usuário eficiente e agradável. Este projeto envolveu a aplicação de conhecimentos em desenvolvimento web, design de interface, e-commerce e otimização para mecanismos de busca (SEO), proporcionando uma solução completa para as necessidades comerciais da Bike & Cia.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/bike-cia/01.webp",
+        "width": 1600,
+        "height": 784
+      },
+      {
+        "src": "/projetos/bike-cia/02.webp",
+        "width": 1600,
+        "height": 783
+      },
+      {
+        "src": "/projetos/bike-cia/03.webp",
+        "width": 1600,
+        "height": 784
+      },
+      {
+        "src": "/projetos/bike-cia/04.webp",
+        "width": 1600,
+        "height": 779
+      }
+    ]
+  },
+  {
+    "slug": "imagear",
+    "title": "Wordpress+Woocommerce Imagear",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "Wordpress",
+      "WooCommerce"
+    ],
+    "url": "https://imagear.com.br/",
+    "description": {
+      "pt": "Desenvolvi o site da Imagear utilizando as plataformas Wordpress e Woocommerce. A Imagear é uma empresa especializada em produtos fotográficos, e o site foi projetado para oferecer uma experiência de usuário eficiente e agradável. Este projeto envolveu a aplicação de conhecimentos em desenvolvimento web, design de interface, e-commerce e otimização para mecanismos de busca (SEO), proporcionando uma solução completa para as necessidades comerciais da Imagear.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/imagear/01.webp",
+        "width": 1600,
+        "height": 785
+      },
+      {
+        "src": "/projetos/imagear/02.webp",
+        "width": 1600,
+        "height": 784
+      },
+      {
+        "src": "/projetos/imagear/03.webp",
+        "width": 1600,
+        "height": 722
+      },
+      {
+        "src": "/projetos/imagear/04.webp",
+        "width": 1600,
+        "height": 781
+      }
+    ]
+  },
+  {
+    "slug": "perfexcrm-ecommerce",
+    "title": "Módulo de Ecommerce para PerfexCRM em Codeigniter",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "PHP",
+      "CodeIgniter",
+      "PerfexCRM",
+      "API",
+      "Symfony"
+    ],
+    "url": null,
+    "description": {
+      "pt": "Desenvolvi um módulo de Ecommerce para o sistema PerfexCRM utilizando o framework Codeigniter. Este módulo foi projetado para expandir as funcionalidades do PerfexCRM, permitindo a gestão integrada de lojas online diretamente na plataforma. Com ele, os usuários podem gerenciar produtos, pedidos, e clientes de maneira eficiente e centralizada. O projeto envolveu a aplicação de conhecimentos em desenvolvimento web, PHP, e-commerce e integrações de API, resultando em uma solução robusta que melhora significativamente a experiência do usuário e otimiza os processos de vendas e atendimento ao cliente dentro do PerfexCRM.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/perfexcrm-ecommerce/01.webp",
+        "width": 1600,
+        "height": 783
+      },
+      {
+        "src": "/projetos/perfexcrm-ecommerce/02.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/perfexcrm-ecommerce/03.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/perfexcrm-ecommerce/04.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/perfexcrm-ecommerce/05.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/perfexcrm-ecommerce/06.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/perfexcrm-ecommerce/07.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/perfexcrm-ecommerce/08.webp",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "slug": "smel",
+    "title": "Site da Secretaria Municipal de Esporte e Lazer (SMEL)",
+    "tags": [
+      "HTML",
+      "JS",
+      "CSS"
+    ],
+    "url": "https://gabriell-braga.github.io/PPI_GabrielBraga/",
+    "description": {
+      "pt": "Desenvolvi um site informativo e interativo para a Secretaria Municipal de Esporte e Lazer (SMEL) como parte da disciplina de Programação para a Internet 1. Este projeto representou uma oportunidade significativa para aplicar as habilidades adquiridas em meu trabalho e no curso técnico, integrando-as ao contexto acadêmico da Universidade Federal de Uberlândia.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/smel/01.webp",
+        "width": 1600,
+        "height": 772
+      },
+      {
+        "src": "/projetos/smel/02.webp",
+        "width": 1600,
+        "height": 781
+      },
+      {
+        "src": "/projetos/smel/03.webp",
+        "width": 1600,
+        "height": 785
+      },
+      {
+        "src": "/projetos/smel/04.webp",
+        "width": 1600,
+        "height": 783
+      }
+    ]
+  },
+  {
+    "slug": "perfexcrm-nota-fiscal",
+    "title": "Módulo de Nota Fiscal para PerfexCRM em Codeigniter",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "PHP",
+      "CodeIgniter",
+      "PerfexCRM",
+      "API",
+      "Symfony"
+    ],
+    "url": null,
+    "description": {
+      "pt": "Desenvolvi um módulo de Nota Fiscal para o sistema PerfexCRM utilizando o framework Codeigniter. Este módulo foi projetado para automatizar a emissão de notas fiscais, integrando-se perfeitamente ao fluxo de trabalho do PerfexCRM. A solução facilita a geração e gestão de notas fiscais eletrônicas, garantindo conformidade com as regulamentações fiscais vigentes. O projeto envolveu a aplicação de conhecimentos avançados em desenvolvimento web, PHP, e integrações de API, resultando em uma ferramenta eficiente que otimiza os processos administrativos e contábeis, proporcionando maior agilidade e precisão para os usuários do PerfexCRM.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/perfexcrm-nota-fiscal/01.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/perfexcrm-nota-fiscal/02.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/perfexcrm-nota-fiscal/03.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/projetos/perfexcrm-nota-fiscal/04.webp",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "slug": "gestao-reunioes-salas",
+    "title": "Aplicação WEB em Angular e Back-End em Symfony PHP para Gestão de Reuniões e Salas",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "PHP",
+      "API",
+      "Symfony",
+      "TS",
+      "Angular"
+    ],
+    "url": null,
+    "description": {
+      "pt": "Desenvolvi uma aplicação web para gestão de reuniões e salas, utilizando Angular para o front-end e Symfony PHP para o back-end. Esta aplicação foi projetada para facilitar a organização e o agendamento de reuniões, permitindo o gerenciamento eficiente de salas de conferência, horários e participantes. A interface amigável em Angular proporciona uma experiência de usuário intuitiva e dinâmica, enquanto o back-end robusto em Symfony PHP assegura uma integração segura e eficiente com o banco de dados. O projeto envolveu a aplicação de conhecimentos avançados em desenvolvimento web, frameworks modernos e práticas de usabilidade, resultando em uma solução completa e eficaz para a gestão corporativa de reuniões e espaços.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/gestao-reunioes-salas/01.webp",
+        "width": 1600,
+        "height": 872
+      },
+      {
+        "src": "/projetos/gestao-reunioes-salas/02.webp",
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "src": "/projetos/gestao-reunioes-salas/03.webp",
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "src": "/projetos/gestao-reunioes-salas/04.webp",
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "src": "/projetos/gestao-reunioes-salas/05.webp",
+        "width": 1280,
+        "height": 700
+      },
+      {
+        "src": "/projetos/gestao-reunioes-salas/06.webp",
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "src": "/projetos/gestao-reunioes-salas/07.webp",
+        "width": 720,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "slug": "cefalgi",
+    "title": "Wordpress Landing Page Cefalgi",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "Wordpress"
+    ],
+    "url": "https://cefalgi.com.br/",
+    "description": {
+      "pt": "Desenvolvi a landing page da Cefalgi utilizando a plataforma Wordpress, criando uma interface atraente e funcional para a apresentação da empresa. A Cefalgi é especializada no tratamento e manejo de cefaleias (dores de cabeça), oferecendo serviços e informações relevantes aos pacientes. A landing page foi projetada para facilitar a navegação e a captação de leads, proporcionando uma experiência de usuário eficiente e agradável. Este projeto envolveu a aplicação de conhecimentos em desenvolvimento web, design de interface, e otimização para mecanismos de busca (SEO), resultando em uma solução completa e eficaz para as necessidades comerciais da Cefalgi.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/cefalgi/01.webp",
+        "width": 1600,
+        "height": 782
+      },
+      {
+        "src": "/projetos/cefalgi/02.webp",
+        "width": 1600,
+        "height": 786
+      },
+      {
+        "src": "/projetos/cefalgi/03.webp",
+        "width": 1600,
+        "height": 783
+      },
+      {
+        "src": "/projetos/cefalgi/04.webp",
+        "width": 1600,
+        "height": 781
+      }
+    ]
+  },
+  {
+    "slug": "instituto-mapinguari",
+    "title": "Wordpress Blog Instituto Mapinguari",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "Wordpress"
+    ],
+    "url": "https://mapinguari.org/",
+    "description": {
+      "pt": "Desenvolvi o site do Instituto Mapinguari utilizando a plataforma Wordpress, criando um blog informativo e interativo. O Instituto Mapinguari é uma organização dedicada à pesquisa e à divulgação científica, com foco na preservação ambiental e cultural da Amazônia. O site foi projetado para facilitar a navegação dos usuários, proporcionando acesso a artigos, notícias, e eventos relacionados às atividades do instituto. Este projeto envolveu a aplicação de conhecimentos em desenvolvimento web, design de interface, e otimização para mecanismos de busca (SEO), resultando em uma plataforma eficiente e atrativa para promover as iniciativas do Instituto Mapinguari.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/instituto-mapinguari/01.webp",
+        "width": 1600,
+        "height": 771
+      },
+      {
+        "src": "/projetos/instituto-mapinguari/02.webp",
+        "width": 1600,
+        "height": 774
+      },
+      {
+        "src": "/projetos/instituto-mapinguari/03.webp",
+        "width": 1600,
+        "height": 772
+      },
+      {
+        "src": "/projetos/instituto-mapinguari/04.webp",
+        "width": 1600,
+        "height": 781
+      },
+      {
+        "src": "/projetos/instituto-mapinguari/05.webp",
+        "width": 1600,
+        "height": 781
+      }
+    ]
+  },
+  {
+    "slug": "mednet",
+    "title": "Dashboard Hospitalar MedNet",
+    "tags": [
+      "HTML",
+      "JS",
+      "CSS",
+      "Firebase",
+      "API"
+    ],
+    "url": "https://gabriell-braga.github.io/MedNet/",
+    "description": {
+      "pt": "Desenvolvemos um dashboard hospitalar abrangente, o MedNet, como parte de um projeto acadêmico na Universidade Federal de Uberlândia (UFU). Este sistema foi projetado para gerenciar prontuários, consultas, médicos, pacientes e hospitais, oferecendo uma solução integrada para a administração hospitalar.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/mednet/01.webp",
+        "width": 1600,
+        "height": 772
+      }
+    ]
+  },
+  {
+    "slug": "calculadora-financeira",
+    "title": "Calculadora Financeira",
+    "tags": [
+      "HTML",
+      "JS",
+      "CSS"
+    ],
+    "url": "https://gabriell-braga.github.io/Calculadora-Financeira/",
+    "description": {
+      "pt": "Desenvolvi uma calculadora financeira interativa como parte do meu curso de Matemática Financeira sob a orientação da Professora Mara Alves Soares na Universidade Federal de Uberlândia (UFU). Este projeto foi uma oportunidade para aplicar conceitos teóricos em uma ferramenta prática e útil.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/calculadora-financeira/01.webp",
+        "width": 1600,
+        "height": 775
+      },
+      {
+        "src": "/projetos/calculadora-financeira/02.webp",
+        "width": 1600,
+        "height": 775
+      },
+      {
+        "src": "/projetos/calculadora-financeira/03.webp",
+        "width": 1600,
+        "height": 775
+      },
+      {
+        "src": "/projetos/calculadora-financeira/04.webp",
+        "width": 1600,
+        "height": 773
+      }
+    ]
+  },
+  {
+    "slug": "optica-faltz",
+    "title": "Wordpress+Woocommerce Optica Faltz",
+    "tags": [
+      "JS",
+      "CSS",
+      "HTML",
+      "Wordpress",
+      "WooCommerce"
+    ],
+    "url": "https://opticafaltz.com.br/",
+    "description": {
+      "pt": "Desenvolvi o site da Optica Faltz utilizando as plataformas Wordpress e Woocommerce. A Optica Faltz é uma empresa especializada em Óculos, e o site foi projetado para oferecer uma experiência de usuário eficiente e agradável. Este projeto envolveu a aplicação de conhecimentos em desenvolvimento web, design de interface, e-commerce e otimização para mecanismos de busca (SEO), proporcionando uma solução completa para as necessidades comerciais da Optica Faltz.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/optica-faltz/01.webp",
+        "width": 1600,
+        "height": 769
+      },
+      {
+        "src": "/projetos/optica-faltz/02.webp",
+        "width": 1600,
+        "height": 590
+      },
+      {
+        "src": "/projetos/optica-faltz/03.webp",
+        "width": 1600,
+        "height": 782
+      },
+      {
+        "src": "/projetos/optica-faltz/04.webp",
+        "width": 1600,
+        "height": 784
+      }
+    ]
+  }
+]

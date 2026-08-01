@@ -1,26 +1,222 @@
 @import "tailwindcss";
 
+/*
+ * O tema é escolhido pelo usuário (com fallback para o SO), então a variante
+ * dark é dirigida por atributo em <html>, não por prefers-color-scheme.
+ */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+
+  --bg: #f4f6fc;
+  --bg-soft: #e7ebf6;
+  --surface: #ffffff;
+  --fg: #080b14;
+  /* Escurecido em relação ao azul-acinzentado original: sobre o fundo claro
+     ele passava raspando no AA e sumia nos textos pequenos. */
+  --muted: #454c60;
+  --line: #ccd4e6;
+  --accent: #1e37c4;
+  --nebula: #4c2fc9;
+  /* No claro a estrela precisa ser escura para existir; no escuro, clara. */
+  --star: #1b2a6b;
+  --star-opacity: 0.55;
+  /* Marca d'água (anos gigantes): quase invisível no claro se seguisse o dark. */
+  --watermark: 0.075;
+  --nebula-opacity: 0.3;
+  --overlay: rgb(244 246 252 / 0.75);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #05070f;
+  --bg-soft: #0b1020;
+  --surface: #0b1020;
+  --fg: #e8ecf8;
+  --muted: #8a93ad;
+  --line: #1a2138;
+  --accent: #4361ff;
+  --nebula: #7b5cff;
+  --star: #b8c6ff;
+  --star-opacity: 0.9;
+  --watermark: 0.045;
+  --nebula-opacity: 0.3;
+  --overlay: rgb(5 7 15 / 0.72);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-surface: var(--surface);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-nebula: var(--nebula);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-archivo);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/*
+ * Tipografia fluida como utilities, e não como tokens `--text-*` do tema.
+ * Pelo tema, o Tailwind emite `line-height: var(--tw-leading, …)`, o que deixa
+ * a escala refém de qualquer `leading-*` num ancestral; aqui cada tamanho traz
+ * altura e tracking próprios, numa regra só.
+ *
+ * TODAS as utilities deste arquivo usam o prefixo `gb-`. Nomes genéricos como
+ * `.text-display`, `.label`, `.display` e `.rule` colidem com folhas de estilo
+ * injetadas por extensões de navegador — uma delas redefinia `.text-display`
+ * com 24px de fonte, cor branca fixa e 250px de padding, o que derrubava os
+ * títulos do site sem deixar rastro no nosso CSS. O prefixo torna a colisão
+ * praticamente impossível.
+ */
+@utility gb-display {
+  font-size: clamp(2.75rem, 9vw, 9rem);
+  /* 0.9 e não 0.8: em títulos com acento (SÊNIOR, EXPERIÊNCIA) uma entrelinha
+     muito fechada empurra o circunflexo para fora da caixa, e a máscara de
+     revelação corta o acento. */
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  /* Cor explícita: os títulos gigantes nunca podem depender de herança nem de
+     background-clip, sob o risco de sumirem no tema claro. */
+  color: var(--fg);
+}
+
+@utility gb-title {
+  font-size: clamp(2.25rem, 5.5vw, 4.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  color: var(--fg);
+}
+
+/* Título de bloco, não de página: cresce bem menos que display e title, senão
+   quebra em três linhas dentro das colunas estreitas onde é usado. */
+@utility gb-heading {
+  font-size: clamp(1.5rem, 2.2vw, 2.125rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+@utility gb-lead {
+  font-size: clamp(1.125rem, 1.8vw, 1.5rem);
+  line-height: 1.5;
+}
+
+@layer base {
+  * {
+    border-color: var(--line);
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans), system-ui, sans-serif;
+    /* O Starfield é fixo atrás de tudo; a página inteira rola sobre ele. */
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: #ffffff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /* O cursor customizado substitui o padrão só onde ele funciona de fato. */
+  @media (pointer: fine) {
+    html[data-cursor="custom"],
+    html[data-cursor="custom"] * {
+      cursor: none;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility gb-label {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+@utility gb-face {
+  font-family: var(--font-display), var(--font-sans), sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/** Fundo em gradiente galáxia, usado em detalhes e barras de progresso. */
+@utility gb-gradient {
+  background-image: linear-gradient(
+    100deg,
+    var(--accent) 0%,
+    var(--nebula) 55%,
+    var(--accent) 100%
+  );
+}
+
+/** Numeral gigante atrás do conteúdo. A opacidade muda por tema: o valor que
+ *  funciona no escuro some por completo no claro. */
+@utility gb-watermark {
+  color: var(--fg);
+  /* `opacity` e não `color-mix`: o Tailwind emite um fallback opaco para o
+     color-mix, e um fallback opaco aqui deixaria o numeral gigante ilegível
+     por cima do conteúdo. O elemento é isolado, então opacity é seguro. */
+  opacity: var(--watermark);
+}
+
+/** Linha divisória do grid editorial. */
+@utility gb-rule {
+  border-top: 1px solid var(--line);
+}
+
+@keyframes marquee-slide {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(0.72);
+  }
+}
+
+/*
+ * Rede de segurança: as animações do Motion já respeitam a preferência via
+ * MotionConfig, isto cobre o que é puramente CSS.
+ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
