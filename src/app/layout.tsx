@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Archivo, Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 import { Cursor } from '@/components/motion/cursor'
 import { ScrollProgress } from '@/components/motion/scroll-progress'
@@ -115,6 +116,7 @@ export default async function RootLayout({
           </LangProvider>
         </ThemeProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
