@@ -43,21 +43,13 @@ Como o layout lê cookies e headers, as rotas são renderizadas sob demanda.
 
 ### Conteúdo
 
-`scripts/sync-notion.mjs` lê a página pública do Notion pela API não-oficial e
-materializa tudo localmente:
+Os projetos ficam todos em `src/content/projects.ts`, escritos à mão, do mais
+recente para o mais antigo. Cada um traz título, categoria, stack, link, resumo
+de uma linha e descrição, estes dois em PT e EN. Na descrição, uma linha em
+branco separa parágrafos, e o primeiro abre em destaque no overlay.
 
-```bash
-node scripts/sync-notion.mjs
-```
-
-Ele escreve `src/content/projects.generated.json` e baixa as 81 screenshots para
-`public/projetos/<slug>/`, reencodando para WebP (os PNGs originais somavam
-~40 MB; ficam ~5 MB).
-
-`src/content/projects.ts` combina esse JSON com metadados escritos à mão —
-títulos curtos, resumo de uma linha, categoria e a tradução das descrições. Um
-projeto novo no Notion sem entrada em `CURATED` faz o build falhar de propósito,
-em vez de aparecer sem tradução.
+As imagens ficam em `public/projetos/<slug>/NN.webp`, e a `01` é a capa. Para
+um projeto novo, capture em 1440×900 e converta para WebP (qualidade ~82).
 
 ### Motion
 
