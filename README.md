@@ -4,7 +4,7 @@ Portfólio pessoal em Next.js 16 (App Router), com quatro páginas, bilíngue PT
 tema claro/escuro e motion guiado por scroll.
 
 - **/** — apresentação, habilidades e trabalhos em destaque
-- **/projetos** — os 18 projetos, com filtro por categoria e detalhe em overlay
+- **/projetos** — os 19 projetos, com filtro por categoria e detalhe em overlay
 - **/experiencia** — linha do tempo de carreira, formação e habilidades
 - **/contato** — canais de contato e download do currículo
 

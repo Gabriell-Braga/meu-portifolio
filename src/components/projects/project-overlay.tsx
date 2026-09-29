@@ -187,12 +187,23 @@ export function ProjectOverlay({ project, onClose, onNavigate }: ProjectOverlayP
               )}
             </motion.div>
 
-            <motion.p
-              variants={fadeUpVariants}
-              className="mt-8 max-w-3xl gb-lead text-muted text-pretty"
-            >
-              {pick(project.description)}
-            </motion.p>
+            {/* Descrições longas vêm em parágrafos separados por linha em
+                branco; o primeiro abre em destaque, o resto em corpo normal. */}
+            {pick(project.description)
+              .split('\n\n')
+              .map((paragraph, index) => (
+                <motion.p
+                  key={index}
+                  variants={fadeUpVariants}
+                  className={
+                    index === 0
+                      ? 'mt-8 max-w-3xl gb-lead text-muted text-pretty'
+                      : 'mt-5 max-w-3xl whitespace-pre-line text-muted text-pretty'
+                  }
+                >
+                  {paragraph}
+                </motion.p>
+              ))}
 
             <motion.div variants={fadeUpVariants} className="mt-8">
               <h3 className="gb-label">{t.projects.stack}</h3>

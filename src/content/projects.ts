@@ -63,6 +63,37 @@ type Curated = {
  * link, descrição PT) vem de projects.generated.json via scripts/sync-notion.mjs.
  */
 const CURATED: Record<string, Curated> = {
+  '99-web': {
+    title: '99 Web',
+    client: null,
+    category: 'sistemas',
+    featured: true,
+    summary: {
+      pt: 'Protótipo navegável que imagina os três serviços da 99 no navegador: corrida com o preço de cada categoria lado a lado, Food com carrinho sempre à vista e entrega de pacotes, com mapa, rotas e endereços reais.',
+      en: 'Clickable prototype that imagines 99’s three services in the browser: rides with every category’s price side by side, Food with the cart always in view, and package delivery, with a real map, routes and addresses.',
+    },
+    descriptionEn: [
+      '99 Rides, Food and Delivery in the browser. A clickable prototype with a real map, routes and addresses, built as an independent concept study in 2026. Solo project: product design, UI and front-end development.',
+      'Context: I have used 99 day to day for a long time, and a good part of my day is spent at the computer. The address is often already on screen, in a chat, an email or a spreadsheet. That raised the question: what would the app experience look like in the browser, in the tab next door, without picking up the phone?',
+      'Goal: bring Rides, Food and Delivery to the web while keeping everything the app already does well, so people who use 99 feel at home, and make the most of what a computer offers: a bigger screen, a keyboard and pasting a whole address at once.',
+      [
+        'What was built:',
+        '• Rides: address search with suggestions, a real route on the map, time and distance bubbles over the path, and every category (Pop, Moto, Pop Expresso, Negocia, Táxi) with price and time side by side. In Negocia, riders propose their own fare on the same screen.',
+        '• Food: a home screen shaped like the app, with UAU deals, banners, filters and categories. A store page with the menu, add-ons, coupons and the cart pinned to the column while people compare stores.',
+        '• Delivery: pickup and drop-off with sender and recipient contacts, packages by motorbike (up to 10 kg) or car (up to 30 kg), and a price based on the route distance.',
+        '• Live tracking: order steps, driver and vehicle, the ride PIN and the car moving along the route on the map.',
+      ].join('\n'),
+      [
+        'Design decisions:',
+        '• The app as the reference. Every screen was checked against the real app: the bottom sheet that slides over the map on mobile, time and distance bubbles, nearby cars seen from above, the UAU badge and yellow banners.',
+        '• A desktop layout of its own. The map and cart stay pinned next to the content. On mobile, the same screen becomes a sheet sliding over the map.',
+        '• Complete states. Loading, errors, addresses outside the service area, no drivers available, orders below the minimum. Every path has a way out.',
+        '• A catalogue with identity. Each fictional store got its own logo and cover, so the list feels real.',
+      ].join('\n'),
+      'Technical: Next.js 16 with the App Router and TypeScript. Tailwind CSS v4 with brand colour tokens. The map runs on MapLibre GL with OpenStreetMap tiles via OpenFreeMap, addresses come from Nominatim and routes from OSRM. Animations use Motion and respect prefers-reduced-motion. Photos are freely licensed, with credits in the prototype footer.',
+      'Disclaimer: independent concept study, not affiliated with 99 or DiDi. No order, ride, delivery or payment is real.',
+    ].join('\n\n'),
+  },
   'unidas-seminovos-pesados': {
     title: 'Unidas Seminovos Pesados',
     client: 'Unidas',

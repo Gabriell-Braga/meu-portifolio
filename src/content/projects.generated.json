@@ -1,5 +1,52 @@
 [
   {
+    "slug": "99-web",
+    "title": "99 Web",
+    "tags": [
+      "Next.js 16",
+      "React 19",
+      "TS",
+      "Tailwind CSS v4",
+      "Motion",
+      "MapLibre GL",
+      "OpenStreetMap",
+      "Nominatim",
+      "OSRM"
+    ],
+    "url": "https://99web.gabrielbraga.app",
+    "description": {
+      "pt": "Corrida, Food e Entrega da 99 no navegador. Protótipo navegável, com mapa, rotas e endereços reais, feito como estudo de conceito independente em 2026. Projeto solo: design de produto, UI e desenvolvimento front-end.\n\nContexto: uso a 99 no dia a dia há bastante tempo, e boa parte do meu dia passa no computador. O endereço muitas vezes já está na tela, numa conversa, num e-mail ou numa planilha. Daí surgiu a pergunta: como seria ter a mesma experiência do app no navegador, na aba do lado, sem pegar o celular?\n\nObjetivo: levar Corrida, Food e Entrega para a web mantendo tudo o que o app já faz bem, para quem usa a 99 se sentir em casa, e aproveitar o que o computador oferece: tela maior, teclado e colar um endereço inteiro de uma vez.\n\nO que foi construído:\n• Corrida: busca de endereço com sugestões, rota real no mapa, balões de tempo e distância sobre o trajeto e todas as categorias (Pop, Moto, Pop Expresso, Negocia, Táxi) com preço e tempo lado a lado. No Negocia, a pessoa propõe o valor na mesma tela.\n• Food: início no formato do app, com ofertas UAU, banners, filtros e categorias. Página de loja com cardápio, adicionais, cupons e o carrinho fixo na coluna enquanto a pessoa compara lojas.\n• Entrega: coleta e destino com contato de quem envia e de quem recebe, pacote na moto (até 10 kg) ou no carro (até 30 kg) e preço calculado pela distância da rota.\n• Acompanhamento ao vivo: etapas do pedido, motorista e veículo, PIN da corrida e o carro andando pelo trajeto no mapa.\n\nDecisões de design:\n• O app como referência. Cada tela foi comparada com o app real: folha inferior que sobe sobre o mapa no celular, balões de tempo e distância, carros por perto vistos de cima, selo UAU e banners amarelos.\n• Desktop com layout próprio. Mapa e carrinho ficam fixos ao lado do conteúdo. No celular, a mesma tela vira uma folha deslizante sobre o mapa.\n• Estados completos. Carregamento, erro, endereço fora da área, nenhum motorista disponível, pedido abaixo do mínimo. Todo caminho tem saída.\n• Catálogo com identidade. Cada loja fictícia ganhou logo e capa próprias, para a lista parecer real.\n\nTécnico: Next.js 16 com App Router e TypeScript. Tailwind CSS v4 com tokens de cor da marca. Mapa em MapLibre GL com tiles do OpenStreetMap via OpenFreeMap, endereços pelo Nominatim e rotas pelo OSRM. Animações com Motion, respeitando prefers-reduced-motion. Fotos com licença livre, com créditos no rodapé do protótipo.\n\nAviso: estudo de conceito independente, sem vínculo com a 99 ou com a DiDi. Nenhum pedido, corrida, entrega ou pagamento é real.",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "/projetos/99-web/01.webp",
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "src": "/projetos/99-web/02.webp",
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "src": "/projetos/99-web/03.webp",
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "src": "/projetos/99-web/04.webp",
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "src": "/projetos/99-web/05.webp",
+        "width": 1440,
+        "height": 900
+      }
+    ]
+  },
+  {
     "slug": "unidas-seminovos-pesados",
     "title": "Unidas Seminovos Pesados- Webflow",
     "tags": [
