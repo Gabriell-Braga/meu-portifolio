@@ -103,6 +103,7 @@ export const projects: Project[] = [
     category: 'webflow',
     url: 'https://corporativo.unidas.com.br/',
     stack: ['JavaScript', 'CSS', 'HTML', 'Webflow', 'Landing Page'],
+    featured: true,
     summary: {
       pt: 'Landing page de aluguel corporativo de frotas, desenhada para captação de leads.',
       en: 'Corporate fleet rental landing page, designed for lead capture.',
